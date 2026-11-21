@@ -6,9 +6,12 @@ This project focuses on building a machine learning model to classify SMS messag
 
 The project uses Natural Language Processing (NLP) techniques to convert text messages into numerical features and Logistic Regression for classification.
 
-## Dataset
+ ### Dataset Source
 
-- **Dataset:** SMS Spam Collection
+The SMS Spam Collection dataset was obtained from the 
+[UCI Machine Learning Repository – SMS Spam Collection](https://archive.ics.uci.edu/dataset/228/sms+spam+collection).
+
+The dataset contains 5,574 SMS messages labelled as ham (legitimate) or spam.
 - **Total messages after removing duplicates:** 5,169
 - **Target classes:** Ham and Spam
 - **Preprocessing:** Removed duplicate messages and performed exploratory data analysis.
